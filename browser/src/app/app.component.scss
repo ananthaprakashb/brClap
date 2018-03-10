@@ -1,0 +1,26 @@
+.content {
+    height: calc( 100vh - 128px );
+}
+
+.flex-spacer {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.indigo-pink-theme {
+  @import "@angular/material/prebuilt-themes/indigo-pink.css";
+}
+
+.pink-bluegrey-theme {
+  @import "@angular/material/prebuilt-themes/pink-bluegrey.css";
+}
+
+.deeppurple-amber-theme {
+  @import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+}
+
+.purple-green-theme {
+  @import "@angular/material/prebuilt-themes/purple-green.css";
+}
+
